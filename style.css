@@ -1,3 +1,7 @@
+@viewport {
+    width: device-width;
+    zoom: 1;
+}
 body{
     background-color: #ADD8E6;
     line-height: 24px;
@@ -37,7 +41,7 @@ p{
     border-radius: 5% 5% 5% 0%;
     background-color: white;
     margin: auto;
-    max-width: 365px;
+    width: 370px;
     height: 820px;  
     padding-top: 40px;
     padding-right: 40px;
