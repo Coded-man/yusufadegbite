@@ -1,77 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" initial-scale="1.o">
-    <title>Personal Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PiggyVest | Dashboard </title>
     <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
-<div id="nice">
-<div id="one">
-<h1>Personal Profile</h1>
+    <a href="https://www.piggyvest.com/"><img src="piggyvest-logo.svg" alt="piggyvest logo"></a>
+        
+    
+    <div class="one">
+        <header>
+             <h1>Create a Secure Account</h1>
+            <p>Welcome to the future of Savings & Investments</p>
+        </header>
 
-
-<div class="two">
-<img class="ok" src="Yusuf.jpg">
-<h2>Biodata</h2>
-<p>Name: Yusuf Adegbite</p>
-<p>Date of birth: </p>
-<p>Address: </p>
-<p>State of origin: </p>
-<p>Home town: </p>
-<p>Occupation: </p>
-<p>Slack ID: </p>
-</div>
-
-<div class="two">
-<h2>Summary</h2>
-<p>Yusuf Adegbite, He is currently a final year student at the university of Lagos studying Education and Chemistry.</p>
-<p>He is a course adviser at MentorMe4Success, an organization that seeks to develop the capacity of unemployed youth and fresh graduate in Nigeria and an intern at Start.ng, a program dedicated to develop and assist beginners in programming.</p>
-<p>He holds a certificate in Emotional intelligence and Self leadership from Knowledge Fountain Leadership Academy (KFLA) and other certifications from various trainings.</p>
-<p>He has over 3 years of active experience working on various projects.</p>
-<p>He is committed in the area of capacity building, educational development and IT.</p>
-</div>
-
-<div class="four">
-    <h2>Hobbies</h2>
-    <ul>
-        <li>Coding</li>
-        <li>Cooking</li>
-        <li>Reading</li>
-        <li>Listening to music</li>
-        <li>Watching movies</li>
-    </ul>
-</div>
-
-<div class="four">
-    <h2>Interests</h2>
-    <ul>
-        <li>Learning</li>
-        <li>Teaching</li>
-        <li>Capacity building</li>
-        <li>Education</li>
-        <li>Technology</li>
-    </ul>
-</div>
-</div>
-
-<form>
-    <h3>Contact me!</h3>
-    <label for="Name">Name</label><br>
-    <input type="text" id="name" name="name" placeholder="Name"> <br>
-    <label for="email">Email</label><br>
-    <input type="email" id="email" name="email" placeholder="Email Address"><br>
-    <label for="message">Message</label><br>
-    <textarea id="message" name="message" placeholder="Message"></textarea><br>
-    <button type="submit">Submit</button>
-</form>
-
-</div>
+        <form action="action_page.php" method="POST">
+            <div class="two">
+            <label for="fname">Full Name</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Full Name"><br>
+            </div>
+            <div class="two">
+            <label for="email">Email Address</label><br>
+            <input type="email" id="email" name="email" placeholder="Email Address"><br>
+            </div>
+            <div class="two">
+            <label for="number">Phone Number</label><br>
+            <input type="tel" id="number" name="number" placeholder="Phone Number"><br>
+            </div>
+            <div class="two">
+            <label for="password">Password</label><br>
+            <input type="password" id="pass" name="pass" placeholder="Password"><br>
+            </div>
+            <div class="two">
+            <label for="referrer">Referrer Phone or Promo Code (Optional)</label><br>
+            <input type="text" id="referrer" name="referrer" placeholder="Referrer Phone Or Code"><br>
+            </div>
+            <div class="two">
+            <label for="click">How Did You Hear About Us? (Optional)</label><br>
+            <select>
+                <option>Click To Select</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Twitter">Twitter</option>
+                <option value="Instagram">Instagram</option>
+                <option value="Friend/Family/Coworker Referral">Friend/Family/Coworker Referral</option>
+                <option value="Google search">Google search</option>
+                <option value="Google playstore">Google playstore</option>
+                <option value="Online Blog">Online Blog</option>
+                <option value="Local Newspaper">Local Newspaper</option>
+                <option value="At an event">At an event</option>
+                <option value="Others">Others</option>
+            </select><br>
+            </div>
+            <button type="submit">Create Account</button>
+        </form>
+    </div>
+   <div class="last"><a href="https://dashboard.piggyvest.com/login"> Already have an account? Log in</a></div>
 
 
 </body>
+
 
 </html>
